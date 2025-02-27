@@ -34,16 +34,34 @@ The repository includes the following key files:
 •	tfidf.pkl: Serialized TF-IDF vectorizer used for text transformation.
 •	req.txt: File listing all the dependencies required to run the project.
 
-Setup Instructions
-To set up the project on your local machine, follow these steps:
-1.	Clone the Repository:
-git clone https://github.com/Likhitha310/Sentimental-Review-Analysis.git
-cd Sentimental-Review-Analysis
-2.	Install Dependencies: Ensure you have Python installed. Install the required packages using:
-pip install -r req.txt
-3.	Run the Application: Start the Streamlit web application using:
-streamlit run app.py
-This will launch the web interface for sentiment analysis.
+
+---
+
+ Setup Instructions
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the Repository**  
+   Open your terminal and run the following commands:  
+   ```bash
+   git clone https://github.com/Likhitha310/Sentimental-Review-Analysis.git
+   cd Sentimental-Review-Analysis
+   ```
+
+2. **Install Dependencies**  
+   Ensure that Python is installed on your system. Then, install the required packages by running:  
+   ```bash
+   pip install -r req.txt
+   ```
+
+3. **Run the Application**  
+   Start the Streamlit web application by executing:  
+   ```bash
+   streamlit run app.py
+   ```  
+   This will launch the web interface for sentiment analysis in your default browser.
+
+--- 
 
 Usage
 •	Single Review Analysis: Input a single line of text into the web app to receive an immediate sentiment analysis.
